@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngaaruhe Hei</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Ngaaruhe Hei</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ngaaruhe Hei</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+             <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/ngh.jpg">
+        </div>
+        <div class="section__text">
+        <p>Hallo, I am</p>
+    <h1>Ngaaruhe Hei</h1>
+    <p class="section__text">Software Developer || MERN Stack Enthusiast ||
+        Aspiring Data Engineer 👩🏾‍💻 || Co-Founder of Elite Edge Bookkeeping & Consultants</p>
+        <div class="btn-container">
+            <button class="btn-btn-colar-2" onclick="window.open('./assets/N Hei CV nn.pdf')">Download CV</button>
+            <button class="btn-btn-colar-1" onclick="location.href='./#contact'">Contact Info</button>
+
+        </div>
+        <div id="social-container">
+    <img src="./assets/linkedIn.PNG" 
+         alt="My LinkedIn profile" 
+         class="icon"
+         onclick="location.href='https://www.linkedin.com/in/ngaaruhe-hei-786833261/'">
+    <img src="./assets/github.PNG" 
+         alt="My Github" 
+         class="icon"
+         onclick="location.href='https://github.com/Hei711'">
+</div>
+</div>
+    </section>
+    <script src="script.js" alt="Ngaaruhe's profile picture"></script>
+</body>
+</html> 
